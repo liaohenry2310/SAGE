@@ -1,0 +1,42 @@
+{
+	"Components": {
+		"TransformComponent": {
+			"Position": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		},
+		"ModelComponent": {
+			"FileName": "../../Assets/Models/MagicPaladin/magic_paladin.model",
+			"Rotation": [ 0, 180, 0 ]
+		},
+		"AnimatorComponent": {
+			"AnimSets": [
+				"../../Assets/Models/MagicPaladin/idle.animation",
+				"../../Assets/Models/MAgicPaladin/walk_forward.animation",
+				"../../Assets/Models/MAgicPaladin/run_forward.animation",
+				"../../Assets/Models/MAgicPaladin/walk_backward.animation",
+				"../../Assets/Models/MAgicPaladin/run_backward.animation",
+				"../../Assets/Models/MAgicPaladin/walk_right.animation",
+				"../../Assets/Models/MAgicPaladin/run_right.animation",
+				"../../Assets/Models/MAgicPaladin/walk_left.animation",
+				"../../Assets/Models/MAgicPaladin/run_left.animation",
+				"../../Assets/Models/MAgicPaladin/attack.animation"
+			]
+		},
+		"PlayerControllerComponent": {
+			"WalkSpeed": 2,
+			"RunSpeed": 5
+		},
+		"ParticleEmitterComponent": {
+			"PosOffset": [ 0, 1, 0 ],
+			"Speed": 5,
+			"StartColor": [ 1, 0.8, 0, 1 ],
+			"EndColor": [ 1, 0, 0, 0 ],
+			"StartSize": 0,
+			"EndSize": 2,
+			"MaxLifeTime": 2,
+			"EmitPosOffset":  0.1
+		}
+	}
+}
+
